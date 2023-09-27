@@ -1,0 +1,78 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.all{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    background: #bcd2ffcb;
+    height: 80%;
+    width: 30%;
+    border-radius: 15px;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-top{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 35px;
+}
+
+.top-int{
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.top-btn{
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background: #e385ffe4;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.trash{
+    width: 30px;
+    height: 30px;
+}
+
+.list-self{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: white;
+    padding: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+
+.list-item{
+    background: rgba(255, 198, 198, 0.758);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    gap: 5px;
+    border-radius: 5px;
+}
+.list-item_done{
+    background: rgba(203, 255, 198, 0.758);
+    text-decoration: line-through;
+}
+
+.text{
+    flex-grow: 1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
